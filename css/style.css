@@ -1,9 +1,30 @@
-h1 {
-  color: pink;
+body {
+  color: #272142;
   font-family: "Nunito", sans-serif;
 }
 
 footer {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+.contact,
+.copyright {
+  align-self: center;
+  margin: 0;
+}
+
+a.nav-link.active-color {
+  color: #662eed;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding-left: 140px;
+  padding-right: 140px;
 }
