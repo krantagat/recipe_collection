@@ -28,3 +28,58 @@ a.nav-link.active-color {
   padding-left: 140px;
   padding-right: 140px;
 }
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 64px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.recipe-pic {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  width: 560px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.container {
+  padding: 0;
+}
