@@ -97,6 +97,14 @@ p {
   color: #272142;
 }
 
+.bottom-line {
+  border-bottom: 1.5px dashed #68d5d2;
+}
+
+.step {
+  font-weight: 800;
+  color: #f65283;
+}
 @media (max-width: 768px) {
   .container-fluid {
     padding-left: 20px;
