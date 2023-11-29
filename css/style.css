@@ -71,12 +71,9 @@ h6 {
 .container {
   padding: 0;
 }
-.about {
-  margin-left: 140px;
-  margin-right: 140px;
-}
+
 .white {
-  object-fit: none;
+  object-fit: fill;
   width: 460px;
   height: 450px;
   margin-right: 40px;
@@ -126,10 +123,23 @@ p {
     font-weight: bold;
     font-size: 18px;
   }
+  p {
+    font-size: 12px;
+  }
 
   footer {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .white {
+    object-fit: fill;
+    width: auto;
+    height: auto;
+  }
+  .fav-img {
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
   }
 }
 
@@ -152,12 +162,12 @@ p {
 
   h2 {
     font-weight: bold;
-    font-size: 64px;
+    font-size: 18px;
   }
 
   h3 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 16px;
   }
 
   h4 {
@@ -172,7 +182,7 @@ p {
 
   h6 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 10px;
   }
   footer {
     padding-left: 10px;
@@ -182,5 +192,12 @@ p {
   .footer-logo {
     height: auto;
     max-width: 30%;
+  }
+  .about {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .fav-recipe {
+    text-align: center;
   }
 }
