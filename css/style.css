@@ -92,6 +92,11 @@ p {
   color: #662eed;
 }
 
+.email {
+  text-decoration: none;
+  color: #272142;
+}
+
 @media (max-width: 768px) {
   .container-fluid {
     padding-left: 20px;
