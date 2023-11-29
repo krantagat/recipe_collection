@@ -88,6 +88,10 @@ p {
   object-fit: cover;
 }
 
+.contact-us-header {
+  color: #662eed;
+}
+
 @media (max-width: 768px) {
   .container-fluid {
     padding-left: 20px;
