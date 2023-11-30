@@ -6,8 +6,8 @@ body {
 footer {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
-  padding-left: 140px;
-  padding-right: 140px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .contact,
@@ -22,11 +22,6 @@ a.nav-link.active-color {
 
 .nav-link {
   font-weight: bold;
-}
-
-.container-fluid {
-  padding-left: 140px;
-  padding-right: 140px;
 }
 
 h1 {
@@ -154,8 +149,8 @@ p {
   }
 
   footer {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .white {
     object-fit: fill;
@@ -168,8 +163,8 @@ p {
     object-fit: cover;
   }
   .img-recipe {
-    width: 600px;
-    height: 350px;
+    width: 500px;
+    height: 200px;
     object-fit: cover;
     display: block;
     margin: auto;
@@ -190,7 +185,7 @@ p {
     padding: 5px;
   }
   .card-title {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
   }
 
   h2 {
@@ -205,26 +200,34 @@ p {
 
   h4 {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   h5 {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   h6 {
     font-weight: bold;
     font-size: 10px;
   }
+  .recipe-pic {
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 260px;
+    height: 100px;
+    object-fit: cover;
+  }
   footer {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-size: 10px;
   }
   .footer-logo {
     height: auto;
-    max-width: 30%;
+    max-width: 20%;
   }
   .about {
     margin-left: 20px;
