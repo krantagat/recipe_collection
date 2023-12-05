@@ -172,6 +172,16 @@ p {
 }
 
 @media (max-width: 576px) {
+  row {
+    width: 320px;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
   .container-fluid {
     padding-left: 10px;
     padding-right: 10px;
